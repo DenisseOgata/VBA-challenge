@@ -55,7 +55,7 @@ Sub Test_Stocks()
         
             PrvTicker = ws.Cells(i - 1, 1).Value 'Title in the variable
                 Ticker = ws.Cells(i, 1).Value 'Stock name starts
-                 NextTicker = ws.Cells(i + 1, 1) 'Next Tciker
+                 NextTicker = ws.Cells(i + 1, 1) 'Next Ticker
             
                 If PrvTicker <> Ticker Then
                     OpenValue = ws.Cells(i, 3).Value
